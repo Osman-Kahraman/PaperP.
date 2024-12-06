@@ -1,4 +1,4 @@
-# PaperP Store Website
+# PaperP Store Website ✈️
 
 This project is a **PaperP Store Website** created as an educational initiative. It features a fictional online store showcasing web development skills, including responsive design, interactive elements, and multimedia content.
 
