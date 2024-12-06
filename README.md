@@ -22,7 +22,7 @@ This project is a **PaperP Store Website** created as an educational initiative.
 2. **About Page (`about.html`)**  
    - Provides project details, references, and the developer’s academic and professional background.
 
-3. **Easter Egg Feature**  
+3. **Easter Egg Feature (`easter_egg.html`)**  
    - Accessible through the search bar with a hidden animation that reveals a creative message.
 
 ---
@@ -33,7 +33,7 @@ To run this project locally:
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/Osman-Kahraman/PaperP-Store.git
+   git clone https://github.com/Osman-Kahraman/PaperP.git
    ```
 
 2. Navigate to the project folder:  
