@@ -1,0 +1,224 @@
+<!-- Osman KAHRAMAN ID:172781221 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="Osman-Kahraman"
+    />
+
+    <title>WEB222 Store</title>
+  </head>
+  <body data-magic-cursor="show">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="Osman-Kahraman"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="Osman-Kahraman"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="Osman-Kahraman"
+    ></script>
+    <script type="text/javascript">
+      var clicks = 0;
+      function egg() {
+        clicks += 1;
+        if (clicks === 7) {
+          const pipe =
+            "&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<br>";
+          const topBottomBorder = "------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------<br>";
+          const verticalLines =
+            "|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>";
+
+          var foo = verticalLines.repeat(8);
+          var bar = "In the memory";
+
+          var lorem = pipe + topBottomBorder + foo + topBottomBorder + bar;
+
+          document.getElementById("clicks").innerHTML = lorem;
+          clicks = 0;
+        } else {
+          document.getElementById("clicks").innerHTML = "";
+        }
+      }
+    </script>
+
+    <main>
+      <header class="dark-mode">
+        <!-- Change this to your Store's info -->
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <strong>I am looking for a job!!! If there are to be any, have a look at </strong>
+          <a href="Osman Kahraman Resume.pdf">here </a>
+          <strong>professor :)</strong>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="ex1">
+          <h1>PaperP.</h1>
+          <a href="easter_egg.html" class="btn"></a>
+          <a href="about.html" class="c4" role="button">About</a>
+        </div>
+      </header>
+
+      <video id="v0" tabindex="0" width="100%" height="auto">
+        <source src="visual/0001-0250.mp4" />
+      </video>
+
+      <nav
+        id="menu"
+        style="
+          position: sticky;
+          top: 0;
+          overflow: hidden;
+          background-color: #000000;
+          align-items: center;
+        "
+      >
+        <form>
+          <input onclick="egg()" type="text" name="search" placeholder="Search..." />
+        </form>
+        <!-- Dynamically create your menu category buttons here -->
+      </nav>
+
+      <div class="dark-mode">
+        <div id="fade-in">
+          <h2 id="selected-category" style="text-align: center">
+            <!-- Dynamically update the selected category title -->
+          </h2>
+          <br /><br /><br />
+          <div id="card-container"></div>
+        </div>
+      </div>
+
+      <div class="mouse-cursor cursor-outer"></div>
+      <div class="mouse-cursor cursor-inner"></div>
+
+      <div class="dark-mode">
+        <div class="container" id="fade-in">
+          <br /><br /><br />
+          <div class="container">
+            <footer
+              class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+            >
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="text-muted">© 2024 Osman KAHRAMAN</span>
+              </div>
+              <div style="align-items: center">
+                <span id="clicks" class="text-muted"></span>
+              </div>
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ml-3">
+                  <a class="text-muted" href="https://github.com/Osman-Kahraman"
+                    ><img
+                      class="github"
+                      src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                      width="30"
+                      height="30"
+                  /></a>
+                </li>
+                <li class="ml-3">
+                  <a class="text-muted" href="https://www.linkedin.com/in/osman-kahraman-2a6513220/"
+                    ><img
+                      class="linkedin"
+                      src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg"
+                      width="30"
+                      height="30"
+                  /></a>
+                </li>
+              </ul>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/sticky.js"></script>
+
+    <script>
+      enterView({
+        selector: "section",
+        enter: function (el) {
+          el.classList.add("entered");
+        }
+      });
+
+      var frameNumber = 0, // start video at frame 0
+        // lower numbers = faster playback
+        playbackConst = 260,
+        // get page height from video duration
+        setHeight = document.getElementById("set-height"),
+        // select video element
+        vid = document.getElementById("v0");
+
+      // dynamically set the page height according to video length
+      vid.addEventListener("loadedmetadata", function () {
+        setHeight.style.height = Math.floor(vid.duration) * playbackConst + "px";
+      });
+
+      // Use requestAnimationFrame for smooth playback
+      function scrollPlay() {
+        var frameNumber = window.pageYOffset / playbackConst;
+        vid.currentTime = frameNumber;
+        window.requestAnimationFrame(scrollPlay);
+      }
+
+      window.requestAnimationFrame(scrollPlay);
+    </script>
+
+    <script>
+      if ($(".mouse-cursor")) {
+        const e = document.querySelector(".cursor-inner"),
+          t = document.querySelector(".cursor-outer");
+        let n,
+          i = 0,
+          o = !1;
+        (window.onmousemove = function (s) {
+          o || (t.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)"),
+            (e.style.transform = "translate(" + s.clientX + "px, " + s.clientY + "px)"),
+            (n = s.clientY),
+            (i = s.clientX);
+        }),
+          $("body").on("mouseenter", "a,.know_tm_topbar .trigger, .cursor-pointer", function () {
+            e.classList.add("cursor-hover"), t.classList.add("cursor-hover");
+          }),
+          $("body").on("mouseleave", "a,.know_tm_topbar .trigger, .cursor-pointer", function () {
+            ($(this).is("a") && $(this).closest(".cursor-pointer").length) ||
+              (e.classList.remove("cursor-hover"), t.classList.remove("cursor-hover"));
+          }),
+          (e.style.visibility = "visible"),
+          (t.style.visibility = "visible");
+      }
+    </script>
+
+    <script type="text/javascript">
+      document.body.style.cursor = "none";
+    </script>
+
+    <!-- JavaScript Data Files -->
+    <script src="./js/categories.js"></script>
+    <script src="./js/products.js"></script>
+
+    <!-- Main App JavaScript File -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
