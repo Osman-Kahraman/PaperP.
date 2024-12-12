@@ -73,45 +73,105 @@
         </div>
         <div class="ex1">
           <h1>PaperP.</h1>
-          <a href="easter_egg.html" class="btn" style="cursor: none"></a>
-          <a href="about.html" class="c4" role="button">About</a>
+          <a href="easter_egg.html" class="btn"></a>
+          <a href="index.html" class="c4" role="button">Main</a>
         </div>
       </header>
 
-      <video id="v0" tabindex="0" width="100%" height="auto">
-        <source src="visual/0001-0250.mp4" />
-      </video>
-
-      <nav
-        id="menu"
-        style="
-          position: sticky;
-          top: 0;
-          overflow: hidden;
-          background-color: #000000;
-          align-items: center;
-        "
-      >
-        <form>
-          <input onclick="egg()" type="text" name="search" placeholder="Search..." />
-        </form>
-        <!-- Dynamically create your menu category buttons here -->
-      </nav>
-
       <div class="dark-mode">
-        <div id="fade-in">
-          <h2 id="selected-category" style="text-align: center">
-            <!-- Dynamically update the selected category title -->
-          </h2>
-          <br /><br /><br />
-          <div id="card-container"></div>
-          <br /><br /><br />
-          <div class="container">
-            <h2>Join Us</h2>
-            <form action="https://httpbin.org/post" method="POST" class="form">
-              <input type="email" name="email" placeholder="Email here" class="emailbox" />
+        <div class="container" id="fade-in">
+          <div class="planedetails">
+            <h3>Plane details</h3>
+            <form action="https://httpbin.org/post" method="POST" class="form" id="form">
+              <div class="form__group field">
+                <input
+                  class="form__field"
+                  type="Name"
+                  name="Name"
+                  id="plane"
+                  placeholder="Name"
+                  required
+                />
+                <label for="Name" class="form__label">Name</label>
+              </div>
+              <div class="form__group field">
+                <input
+                  class="form__field"
+                  name="Type"
+                  id="Type"
+                  placeholder="Type"
+                  list="Types"
+                  required
+                />
+                <datalist id="Types">
+                  <option value="Traditional"></option>
+                  <option value="Military"></option>
+                  <option value="Passenger"></option>
+                  <option value="Just a filler :D 1"></option>
+                  <option value="Just a filler :D 2"></option>
+                  <option value="Just a filler :D 3"></option>
+                  <option value="Just a filler :D 4"></option>
+                  <option value="Just a filler :D 5"></option>
+                  <option value="Just a filler :D 6"></option>
+                  <option value="Just a filler :D 7"></option>
+                </datalist>
+                <label for="Types" class="form__label">Type</label>
+              </div>
+              <div class="form__group field">
+                <input
+                  class="form__field"
+                  type="Price"
+                  name="Price"
+                  id="Price"
+                  placeholder="Price"
+                  required
+                />
+                <label for="Price" class="form__label">Price</label>
+              </div>
+              <div class="form__group field">
+                <input
+                  class="form__field"
+                  type="Source"
+                  name="Source"
+                  id="Source"
+                  placeholder="Where is the source information?"
+                  required
+                />
+                <label for="Source" class="form__label">Where is the source information?</label>
+              </div>
+              <div class="form__group field">
+                <input
+                  class="form__field"
+                  type="foo"
+                  name="foo"
+                  id="foo"
+                  placeholder="Describe why you think this song should be added?"
+                  required
+                />
+                <label for="foo" class="form__label"
+                  >Describe why you think this song should be added?</label
+                >
+              </div>
+              <br />
+              <div class="checkbox-wrapper">
+                <label class="checkbox" style="cursor: none">
+                  <input class="checkbox__trigger visuallyhidden" type="checkbox" />
+                  <span class="checkbox__symbol">
+                    <svg
+                      aria-hidden="true"
+                      class="icon-checkbox"
+                      width="28px"
+                      height="28px"
+                      viewBox="0 0 28 28"
+                      version="1"
+                    >
+                      <path d="M4 14l8 7L24 7"></path>
+                    </svg>
+                  </span>
+                  <p class="checkbox__textwrapper">Discontinued?</p>
+                </label>
+              </div>
               <button type="submit" class="btn btn-dark" style="cursor: none">Submit</button>
-              <a style="cursor: none" href="plane.html">Request a new Plane!!!</a>
             </form>
           </div>
         </div>
