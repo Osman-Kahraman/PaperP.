@@ -1,6 +1,6 @@
 # PaperP Store Website ✈️
 
-![Uploading paperp2.gif…]()
+![paperp2](https://github.com/user-attachments/assets/fa5eed54-35fc-41ce-abdb-ee2d725df34d)
 
 This project is a **PaperP Store Website** created as an educational initiative. It features a fictional online store showcasing web development skills, including responsive design, interactive elements, and multimedia content.
 
