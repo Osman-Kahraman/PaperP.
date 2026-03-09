@@ -1,4 +1,4 @@
-# PaperP Store Website ✈️
+# PaperP Store Website
 
 ![paperp2](https://github.com/user-attachments/assets/fa5eed54-35fc-41ce-abdb-ee2d725df34d)
 
